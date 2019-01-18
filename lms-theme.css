@@ -10282,18 +10282,23 @@ h3 {
   text-align: center;
 }
 .menu .navbar-nav :nth-child(1) {
+  -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 .menu .navbar-nav :nth-child(2) {
+  -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 }
 .menu .navbar-nav :nth-child(3) {
+  -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 .menu .navbar-nav :nth-child(4) {
+  -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
 }
 .menu .navbar-nav :nth-child(5) {
+  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 .menu .navbar-nav :nth-child(1) :hover:after {
@@ -10752,20 +10757,27 @@ path {
     stroke-dashoffset: 18;
   }
 }
-.somos {
+.back-internas {
   background: url(img/lms-back-l.png) no-repeat bottom left, url(img/lms-back-r.png) no-repeat bottom right;
   height: 100vh;
 }
+.back-internas .menu .fa-menu1 {
+  padding-top: 0.5rem;
+}
+.back-internas .menu .navbar {
+  padding: 0;
+}
+
 .somos * {
   color: #F00973;
 }
-.somos .menu .fa-menu1 {
-  color: #F00973;
-  background: #F00973;
-  padding-top: 0.5rem;
+
+.mision * {
+  color: #2B2F88;
 }
-.somos .menu .navbar {
-  padding: 0;
+
+.servicios * {
+  color: #F58E00;
 }
 
 .internas {
@@ -10813,18 +10825,46 @@ path {
   padding: 5rem;
   display: block;
 }
+.internas .lineas-azul {
+  background-image: url(img/lineas-azul.svg);
+  background-repeat: no-repeat;
+  padding: 5rem;
+  display: block;
+}
+.internas .lineas-amarillo {
+  background-image: url(img/lineas-amarillo.svg);
+  background-repeat: no-repeat;
+  padding: 5rem;
+  display: block;
+}
 
 .rosa {
   background: url(img/rosa.jpg);
   background-repeat: no-repeat;
 }
 
-@media (min-width: 992px) {
-  .lineas-rosa {
-    background-image: none;
-    display: none;
-  }
+.fondo {
+  left: 0;
+  margin-top: -5rem;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: perspective(1000px);
+  transform: perspective(1000px);
 }
+
+.imagen {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+  top: 5%;
+  left: 10%;
+  -webkit-transform: translateZ(50px) translateX(1%) translateY(1%);
+  transform: translateZ(50px) translateX(1%) translateY(1%);
+  -webkit-box-shadow: 0 0 50px 0 rgba(51, 51, 51, 0.3);
+  box-shadow: 0 0 50px 0 rgba(51, 51, 51, 0.3);
+}
+
 @media (max-width: 991.98px) {
   html {
     font-size: 0.8rem;
@@ -10839,20 +10879,20 @@ path {
     font-size: 2.1rem;
   }
 
-  .somos * {
+  .somos *, .mision *, .servicios * {
     text-align: center !important;
     line-height: 1.5rem !important;
   }
-  .somos h1 {
+  .somos h1, .mision h1, .servicios h1 {
     margin-bottom: 3rem;
   }
-  .somos .lema {
+  .somos .lema, .mision .lema, .servicios .lema {
     line-height: 1rem !important;
     font-size: 0.8rem;
     width: 100%;
   }
 
-  .lineas-rosa {
+  .lineas-rosa, .lineas-azul, .lineas-amarillo {
     background-image: none !important;
     padding: 1rem !important;
   }
