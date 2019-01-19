@@ -10865,6 +10865,22 @@ path {
   box-shadow: 0 0 50px 0 rgba(51, 51, 51, 0.3);
 }
 
+@media (max-width: 992px) {
+  .lineas-rosa {
+    background-image: none;
+    display: none;
+  }
+
+  .lineas-azul {
+    background-image: none;
+    display: none;
+  }
+
+  .lineas-rosa {
+    background-image: none;
+    display: none;
+  }
+}
 @media (max-width: 991.98px) {
   html {
     font-size: 0.8rem;
