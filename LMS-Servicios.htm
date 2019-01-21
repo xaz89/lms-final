@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/servicios2.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>LMS-Servicios</title>
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./LMS-Servicios_files/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./LMS-Servicios_files/lms-theme.min.css">
+    <link rel="stylesheet" href="./LMS-Servicios_files/animate.css">
+</head>
+
+<body>
+    
+                <!-- <div class="owl-carousel">
+                    <div><img src="//placehold.it/300x150/936/fff/?text=1" alt=""></div>
+                    <div><img src="//placehold.it/300x150/693/fff/?text=2" alt=""></div>
+                    <div><img src="//placehold.it/300x150/369/fff/?text=3" alt=""></div>
+                    <div><img src="//placehold.it/300x150/f63/fff/?text=4" alt=""></div>
+                  </div> -->
+            
+                  <!-- <h1>CSS 3D FLIP BOX</h1>
+                  <h3>Flipping content to a div (Transitions and 3D Transforms)</h3> -->
+                  
+                  <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <div class="hover panel">
+                            <div class="front">
+                              <div class="box1">
+                                  <h1>dfgdfgsdfsdfsfsdf</h1>
+                                    <p>sñdlf</p>
+                              
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="box2">
+                                <p>Back Side</p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                  
+                          <div class="col">
+                          <div class="hover panel">
+                            <div class="front">
+                              <div class="box1">
+                                <p>Front Side</p>
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="box2">
+                                <p>Back Side</p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                  
+                          <div class="col">
+                          <div class="hover panel">
+                            <div class="front">
+                              <div class="box1">
+                                <p>Front Side</p>
+                              </div>
+                            </div>
+                            <div class="back">
+                              <div class="box2">
+                                <p>Back Side</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                       </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./LMS-Servicios_files/jquery-3.3.1.slim.min.js"></script>
+    <script src="./LMS-Servicios_files/popper.min.js"></script>
+    <script src="./LMS-Servicios_files/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="./LMS-Servicios_files/vanilla-tilt.js"></script>
+
+    <script>$('.owl-carousel').owlCarousel({
+        autoplay: true,
+        center: true,
+        loop: true,
+        nav: true,
+      });</script>
+
+      <script>
+      	$(document).ready(function(){
+		// set up hover panels
+		// although this can be done without JavaScript, we've attached these events
+		// because it causes the hover to be triggered when the element is tapped on a touch device
+		$('.hover').hover(function(){
+			$(this).addClass('flip');
+		},function(){
+			$(this).removeClass('flip');
+		});
+	});</script>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
