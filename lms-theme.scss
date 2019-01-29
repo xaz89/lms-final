@@ -174,10 +174,28 @@ body {
     justify-self: end;
 }
 
+
+
 .menu {
     grid-area: menu;
     justify-self: end;
     text-align: center;
+
+    a {
+        color: inherit;
+        i {
+            padding-right: 1rem;
+            font-size: 1.5rem;
+        }
+        .fa-home:hover {
+            color: inherit;
+            opacity: 0.6;
+            -webkit-transition: all 0.5s;
+            /* Safari */
+            transition: all 0.5s;
+        }
+    }
+    
     .navbar-nav {
         :nth-child(1) {
             -webkit-animation-delay: 0.1s;
@@ -198,6 +216,10 @@ body {
         :nth-child(5) {
             -webkit-animation-delay: 0.30s;
             animation-delay: 0.30s;
+        }
+        :nth-child(6) {
+            -webkit-animation-delay: 0.35s;
+            animation-delay: 0.35s;
         }
         :nth-child(1) :hover {
             &:after {
