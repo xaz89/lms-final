@@ -10665,7 +10665,7 @@ body {
 .btn-lms {
   color: white;
   font-family: "Roboto", helvetica;
-  background-color: rgba(245, 142, 0, 0.6);
+  background-color: rgba(245, 142, 0, 0.8);
   border: 0;
   border-radius: 0.3rem;
   padding: 0.3rem 0.6rem;
@@ -10684,7 +10684,7 @@ body {
 .btn-lms:hover {
   -webkit-transform: scale(0.98);
   transform: scale(0.98);
-  background-color: rgba(245, 142, 0, 0.8);
+  background-color: rgba(245, 142, 0, 0.6);
   -webkit-box-shadow: 6px 8px 8px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 6px 8px 8px 0px rgba(0, 0, 0, 0.3);
   color: #fff;
@@ -10966,7 +10966,7 @@ path {
 .panel {
   width: 100%;
   margin: 0 auto;
-  height: 30vh;
+  height: 20rem;
   position: relative;
   perspective: 600px;
   -webkit-perspective: 600px;
@@ -10979,7 +10979,7 @@ path {
 .panel .back {
   text-align: center;
   width: 100%;
-  height: 30vh;
+  height: 20rem;
 }
 
 .panel .front {
@@ -11039,7 +11039,7 @@ path {
   background-color: #F00973;
   background-image: url(img/index1c.png);
   background-size: cover;
-  height: 30vh;
+  height: 20rem;
   margin: 0 auto;
   border-radius: 0.3rem;
   -moz-border-radius: 0.3rem;
@@ -11061,8 +11061,8 @@ path {
   padding: 3rem;
 }
 .box1 * {
-  -webkit-transform: translateZ(50px) translateX(1%) translateY(1%);
-  transform: translateZ(50px) translateX(1%) translateY(1%);
+  -webkit-transform: translateZ(70px) translateX(1%) translateY(1%);
+  transform: translateZ(70px) translateX(1%) translateY(1%);
   color: #fff;
   text-shadow: 1rem 1rem 1rem gray;
   word-wrap: break-word;
@@ -11077,11 +11077,12 @@ path {
   position: absolute;
 }
 .box1 h3 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   word-wrap: break-word;
   overflow-wrap: break-word;
   padding-left: 1rem;
   padding-right: 1rem;
+  line-height: 1.5rem;
 }
 .box1 h5 {
   width: 100%;
@@ -11100,7 +11101,7 @@ path {
 
 .box2 {
   background: rgba(0, 0, 0, 0.4);
-  height: 30vh;
+  height: 20rem;
   margin: 0 auto;
   padding: 20px;
   border-radius: 0.3rem;
@@ -11146,7 +11147,7 @@ path {
   background-position: right;
 }
 
-.desarrollo {
+.d-sistemas {
   background-image: url(img/desarrollo.jpg);
   background-size: cover;
   background-position: right;
@@ -11164,6 +11165,126 @@ path {
   background-position: right;
 }
 
+.promocion {
+  background-image: url(img/fondo-promocionOk.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.d-portales {
+  background-image: url(img/aplicaciones.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.comunicacion {
+  background-image: url(img/aplicaciones.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.redes-serv {
+  background-image: url(img/aplicaciones.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.alianzas {
+  background-image: url(img/alianzas.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.call {
+  background-image: url(img/call.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.comunicacion {
+  background-image: url(img/comunicacion.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.d-portales {
+  background-image: url(img/d-portales.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.fulfillment {
+  background-image: url(img/fulfillment.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.suministro {
+  background-image: url(img/suministro.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.redes-serv {
+  background-image: url(img/redes-serv.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.promocion {
+  background-image: url(img/promocion.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.gamification {
+  background-image: url(img/gamification.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.close-servicios {
+  right: 0;
+  left: auto;
+  position: absolute;
+  padding: 1rem !important;
+  color: #fff;
+  opacity: 1;
+}
+.close-servicios :hover {
+  color: #F58E00 !important;
+}
+
+.close-servicios2 {
+  top: -1.2rem !important;
+  position: relative !important;
+  background: white !important;
+  border-radius: 7rem !important;
+  color: gray !important;
+  opacity: 1 !important;
+  border: 0;
+  padding-left: 0.34rem !important;
+  padding-right: 0.34rem !important;
+  padding-top: 0.01rem !important;
+  padding-bottom: 0.1rem !important;
+  box-shadow: 0rem 0rem 2rem 0rem grey !important;
+}
+.close-servicios2 :hover {
+  position: relative !important;
+  background: #F58E00 !important;
+  border-radius: 7rem !important;
+  color: #fff !important;
+  opacity: 1 !important;
+  border: 0;
+  padding-left: 0.1rem !important;
+  padding-right: 0.1rem !important;
+  transition: all 0.3s;
+}
+
+.modal-content {
+  border-left: 14px solid #F58E00;
+}
+
 @media (max-width: 991.98px) {
   html {
     font-size: 0.8rem;
@@ -11179,20 +11300,28 @@ path {
     font-size: 2.1rem;
   }
 
-  .somos *, .mision *, .servicios * {
+  .somos *,
+.mision *,
+.servicios * {
     text-align: center !important;
     line-height: 1.5rem !important;
   }
-  .somos h1, .mision h1, .servicios h1 {
+  .somos h1,
+.mision h1,
+.servicios h1 {
     margin-bottom: 3rem;
   }
-  .somos .lema, .mision .lema, .servicios .lema {
+  .somos .lema,
+.mision .lema,
+.servicios .lema {
     line-height: 1rem !important;
     font-size: 0.8rem;
     width: 100%;
   }
 
-  .lineas-rosa, .lineas-azul, .lineas-amarillo {
+  .lineas-rosa,
+.lineas-azul,
+.lineas-amarillo {
     background-image: none !important;
     padding: 1rem !important;
   }
