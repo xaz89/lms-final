@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>LMS-Servicios</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="lms-theme.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="import" href="servicios2.html">
+</head>
+<body>
+
+     
+                
+              
+
+    <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+    
+        // Grab DOM from warning.html's document.
+        var el = content.querySelector('.internas');
+    
+        document.body.appendChild(el.cloneNode(true));
+      </script>
+
+      
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+
+  <script>$('.owl-carousel').owlCarousel({
+      autoplay: true,
+      center: true,
+      loop: true,
+      nav: true,
+    });</script>
+
+  <script>
+    $(document).ready(function () {
+      // set up hover panels
+      // although this can be done without JavaScript, we've attached these events
+      // because it causes the hover to be triggered when the element is tapped on a touch device
+      $('.hover').hover(function () {
+        $(this).addClass('flip');
+      }, function () {
+        $(this).removeClass('flip');
+      });
+    });</script>
+
+</body>
+
+</html>

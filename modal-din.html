@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        .bs-example {
+  margin: 20px;
+}
+.modal-body {
+  margin-left: 20px;
+}
+        </style>
+
+    <div class="bs-example">
+        <!-- Button HTML (to Trigger Modal) -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-num="0">Question
+            1</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-num="1">Question
+            2</button>
+
+        <!-- Modal HTML -->
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Modal Window</h4>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" class="close" data-dismiss="modal" onclick="submit()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <h4 id="selected"></h4>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script>
+        var modals = [
+            {
+                prompt: 'Elige una nave',
+                options: ['Tesla Model S', 'Nissan Leaf', 'Chevy Bolt'],
+                correctAnswer: 'Tesla Model S'
+                
+            },
+            {
+                prompt: 'Choose a fruit',
+                options: ['Apple', 'Orange', 'Banana', 'Peach'],
+                correctAnswer: 'Apple'
+            }
+        ];
+
+        function submit() {
+            var selected = $(".modal-body input:checked").val();
+            $("#selected").text('Elegiste ' + selected);
+        }
+
+        function getOptions(question) {
+            var $buttonDiv = $('<div></div>');
+            question.options.forEach(function (opt) {
+                var $label = $('<label class="radio"></label');
+                var $input = $('<input type="radio" name="opts" value="' + opt + '">');
+                $label.append($input);
+                $label.append(opt);
+                $buttonDiv.append($label);
+            });
+            return $buttonDiv;
+        }
+
+        function showQuestion(event, $modal) {
+            var button = $(event.relatedTarget);  // Button that triggered the modal
+            var num = parseInt(button.data('num'));
+            var question = modals[num];
+            $modal.find('.modal-title').text(question.prompt);
+            $modal.find('.modal-body').empty().append(getOptions(question));
+        }
+
+        $(function () {
+            $("#myModal").on('show.bs.modal', function (event) {
+                showQuestion(event, $(this));
+            });
+        });
+    </script>
+
+</body>
+
+</html>

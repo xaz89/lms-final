@@ -125,7 +125,7 @@
                   <div class="back">
                     <div class="box2">
                       <p>Servicio de recepción y atención de solicitudes para la solución de problemas.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
+                      <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#soporte">Entrar</a>
                     </div>
                   </div>
                 </div>
@@ -141,7 +141,8 @@
                     <div class="box2">
                       <p>Desarrollamos aplicaciones móviles con enfoque en CRM para plataformas iOS, Android y Windows.
                       </p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
+                      <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#aplicaciones">Entrar</a>
+
                     </div>
                   </div>
                 </div>
@@ -157,7 +158,8 @@
                     <div class="box2">
                       <p>Servicio de evaluación de mercadeo y colocación de material POP con registro de operación en
                         handheld, aplicación móvil e impresora portátil.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
+                        <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#promocion">Entrar</a>
+
                     </div>
                   </div>
                 </div>
@@ -174,7 +176,8 @@
                       <p>Entre nuestros servicios, contamos con el desarrollo de aplicaciones en línea: brindamos
                         servicios integrales de desarrollo web de portales, hosting, dominios y herramientas de
                         marketing.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
+                        <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#d-portales">Entrar</a>
+
                     </div>
                   </div>
                 </div>
@@ -189,7 +192,7 @@
                   <div class="back">
                     <div class="box2">
                       <p>Diseño y producción de documentos y piezas de comunicación electrónica e impresa.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
+                      <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#comunicacion">Entrar</a>
                     </div>
                   </div>
                 </div>
@@ -205,7 +208,8 @@
                     <div class="box2">
                       <p>En LMS planificamos, diseñamos e implementamos campañas exitosas en redes sociales con el
                         objetivo de adquirir una visión clara sobre la relación entre las marcas y sus clientes.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
+                        <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#redes">Entrar</a>
+
                     </div>
                   </div>
                 </div>
@@ -222,7 +226,8 @@
                       <p>LMS establece alianzas estratégicas con empresas reconocidas, con la finalidad de brindar
                         ventajas competitivas a sus clientes, quienes no podrían alcanzarlas de forma independiente en
                         el corto plazo.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
+                        <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#alianzas">Entrar</a>
+
                     </div>
                   </div>
                 </div>
@@ -238,8 +243,8 @@
                     <div class="box2">
                       <p>En LMS ofrecemos soluciones completas para clientes con diversos giros y segmentos, a través
                         de nuestros contact centers.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
-                    </div>
+                        <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#call">Entrar</a>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -254,8 +259,8 @@
                     <div class="box2">
                       <p>Impresión, personalización, doblado, ensobretado, enrutado y envío de comunicación impresa y
                         electrónica.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
-                    </div>
+                        <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#fulfillment">Entrar</a>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -269,7 +274,7 @@
                   <div class="back">
                     <div class="box2">
                       <p>En LMS ofrecemos un servicio de suministro y distribución de premios.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
+                      <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#suministro">Entrar</a>
                     </div>
                   </div>
                 </div>
@@ -285,8 +290,8 @@
                     <div class="box2">
                       <p>Ayudamos a nuestros clientes a establecer relaciones fuertes y duraderas con sus consumidores,
                         canales y empleados.</p>
-                      <a href="#" class="btn btn-lms">Entrar</a>
-                    </div>
+                        <a href="#" class="btn btn-lms" data-toggle="modal" data-target="#gamification">Entrar</a>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -301,8 +306,11 @@
     </div>
   </div>
 
+
+<!-- /////////////// MODALS  /////////////// -->
+
   <!-- Modal planeacion-->
-  <div class="modal fade bd-example-modal-lg" id="planeacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  <div class="modal fade" id="planeacion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
@@ -310,12 +318,10 @@
           <span aria-hidden="true">&times;</span>
         </button>
         <img src="img/fondo-planeacionOk.jpg" alt="" class="w-100">
-        <div class="modal-header">
-          <h5 class="modal-title text-lms3" id="exampleModalLongTitle"><i class="fas fa-clipboard-list"></i> Planeación
-            estratégica</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+        <div class="modal-header pleca">
+          <h5 class="modal-title text-lms3" id="exampleModalLongTitle">
+            Planeación<br>
+            <span>estratégica</span></h5>
         </div>
         <div class="modal-body">
           Definición de la estrategia del programa, así como los objetivos y metas a alcanzar en el corto, mediano y
@@ -324,66 +330,184 @@
           Se definen los siguientes conceptos:
           <br><br>
           <ul>
-            <li>Desarrollo de la estrategia del programa.</li>
-            <li>Conceptos para acumulación de puntos y redención de beneficios.</li>
-            <li>Análisis económico.</li>
-            <li>Estrategia de base de datos para mercadotecnia.</li>
-            <li>Desarrollo de investigación cualitativa.</li>
-            <li>Desarrollo de reglamento del programa.</li>
-            <li>Plan de lanzamiento.</li>
-            <li>Identificación de alianzas estratégicas potenciales.</li>
+            <li><span>Desarrollo de la estrategia del programa.</span></li>
+            <li><span>Conceptos para acumulación de puntos y redención de beneficios.</span></li>
+            <li><span>Análisis económico.</span></li>
+            <li><span>Estrategia de base de datos para mercadotecnia.</span></li>
+            <li><span>Desarrollo de investigación cualitativa.</span></li>
+            <li><span>Desarrollo de reglamento del programa.</span></li>
+            <li><span>Plan de lanzamiento.</span></li>
+            <li><span>Identificación de alianzas estratégicas potenciales.</span> </li>
           </ul>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-lms3 text-white" data-dismiss="modal">Close</button>
-        </div>
+        <a href="" class="ant btn-lms" data-toggle="modal" data-target="sistemas.html" data-dismiss="modal">
+          <</a> <a href="" class="sig btn-lms" data-toggle="modal" data-target="#d-sistemas" data-dismiss="modal">>
+        </a>
       </div>
     </div>
   </div>
 
-  <!-- Modal -->
-  <div class="modal fade bd-example-modal-lg" id="d-sistemas" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  <!-- Modal d-sistemas-->
+  <div class="modal fade" id="d-sistemas" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
-        <!-- <button type="button" class="close-servicios close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close-servicios close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button> -->
-
-        <div class="modal-header">
-          <h5 class="modal-title text-lms3" id="exampleModalLongTitle"><i class="fas fa-clipboard-list"></i> Desarrollo
-            de Sistemas</h5>
-          <button type="button" class="close close-servicios2" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+        </button>
+        <img src="img/fondo-desarrolloOk.jpg" alt="" class="w-100">
+        <div class="modal-header pleca">
+          <h5 class="modal-title text-lms3" id="exampleModalLongTitle">
+            Desarrollo<br>
+            <span>de sistemas</span></h5>
         </div>
         <div class="modal-body">
           <ul>
+            <li><span>Consultoría: Estudios de reingeniería, diseño y auditoría de bases de datos, análisis y auditoría
+                de sistemas informáticos.</span></li>
+            <li><span>Desarrollo: Planeación, construcción, documentación y capacitación de sistemas de información.
+                Prestación de servicios especializados bajo la modalidad de personal asignado, en todos los niveles
+                para la construcción, mantenimiento, documentación y capacitación de sistemas de información.</span></li>
+            <li><span>Manipulación de bases de datos: Análisis, diseño e implantación de bases de datos: MS SQL Server
+                2005/2008, Oracle, MySQL y POSTGRES.</span></li>
+            <li><span>Desarrollo de aplicaciones Cliente/Servidor y Web utilizando las Plataformas Windows, LINUX y con
+                lenguajes de programación: C++, C SHARP, Visual Basic, Plataforma .NET y PHP.</span></li>
+            <li><span>Construcción de portales web.</span></li>
+            <li><span>Desarrollo de aplicaciones de Data Warehouse y Business Intelligence.</span></li>
+            <li><span>Desarrollo de aplicaciones con tarjeta inteligente (smart card) y lectores biométricos.</span></li>
+            <li><span>Desarrollo de aplicaciones móviles.</span></li>
+            <li><span>Desarrollo y adecuación de aplicaciones a las necesidades específicas de nuestros clientes.</span></li>
+            <li><span>Servicio de hospedaje de servidores y aplicaciones en ambiente web.</span></li>
+            <li><span>CMMI</span></li>
 
-            <li>Desarrollo: Planeación, construcción, documentación y capacitación de sistemas de información.
-              Prestación de servicios especializados bajo la modalidad de personal asignado, en todos los niveles para
-              la construcción, mantenimiento, documentación y capacitación de sistemas de información.</li>
-            <li>Manipulación de bases de datos: Análisis, diseño e implantación de bases de datos: MS SQL Server
-              2005/2008, Oracle, MySQL y POSTGRES.</li>
-            <li>Desarrollo de aplicaciones Cliente/Servidor y Web utilizando las Plataformas Windows, LINUX y con
-              lenguajes de programación: C++, C SHARP, Visual Basic, Plataforma .NET y PHP.</li>
-            <li>Construcción de portales web.</li>
-            <li>Desarrollo de aplicaciones de Data Warehouse y Business Intelligence.</li>
-            <li>Desarrollo de aplicaciones con tarjeta inteligente (smart card) y lectores biométricos.</li>
-            <li>Desarrollo de aplicaciones móviles.</li>
-            <li>Desarrollo y adecuación de aplicaciones a las necesidades específicas de nuestros clientes.</li>
-            <li>Servicio de hospedaje de servidores y aplicaciones en ambiente web.</li>
-            <li>CMMI</li>
-
-            <li>Soporte Tecnico Programas de Lealtad</li>
           </ul>
         </div>
-        <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-lms3 text-white" data-dismiss="modal">Close</button>
-        </div> -->
+        <a href="" class="ant btn-lms" data-toggle="modal" data-target="#planeacion" data-dismiss="modal"><</a>
+           <a href="" class="sig btn-lms" data-toggle="modal" data-target="#soporte" data-dismiss="modal">></a>
       </div>
     </div>
   </div>
+
+   <!-- Modal soporte-->
+   <div class="modal fade" id="soporte" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+   aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+       <button type="button" class="close-servicios close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+       <img src="img/fondo-soporteOk.jpg" alt="" class="w-100">
+       <div class="modal-header pleca">
+         <h5 class="modal-title text-lms3" id="exampleModalLongTitle">
+          Soporte<br>
+           <span>técnico</span></h5>
+       </div>
+       <div class="modal-body">
+<p>Servicio de recepción y atención de solicitudes para la solución de problemas.</p>
+<p>Incluye la asistencia a usuarios en cuestiones técnicas relacionadas con la disponibilidad, desempeño y funcionalidad de las aplicaciones que dan soporte a los programas de nuestros clientes, así como al seguimiento de las solicitudes de solución de problemas.</p>
+<p>El Help Desk brinda soporte dentro de los horarios hábiles de operación. Sin embargo, ofrecemos flexibilidad para implementar horarios de operación, de acuerdo con las necesidades y prioridades de nuestros clientes.</p>
+<p>Tenemos disponible un teléfono de emergencia para responder a fallas mayores, las 24 horas del día y los 365 días del año.</p>
+<p>Contamos con una aplicación para el seguimiento, escala y monitoreo de órdenes de trabajo (solución de problemas, sugerencias, servicio y quejas), que les permite a los agentes de Help Desk tener un control total sobre su operación, así como contar con teléfono, correo electrónico y chat.</p>
+
+       </div>
+       <a href="" class="ant btn-lms" data-toggle="modal" data-target="#d-sistemas" data-dismiss="modal"><</a>
+          <a href="" class="sig btn-lms" data-toggle="modal" data-target="#aplicaciones" data-dismiss="modal">></a>
+     </div>
+   </div>
+ </div>
+
+
+   <!-- Modal aplicaciones-->
+   <div class="modal fade" id="aplicaciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+   aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered" role="document">
+     <div class="modal-content">
+       <button type="button" class="close-servicios close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+       <img src="img/fondo-appMovilesOk.jpg" alt="" class="w-100">
+       <div class="modal-header pleca">
+         <h5 class="modal-title text-lms3" id="exampleModalLongTitle">
+          Aplicaciones<br>
+           <span>móviles</span></h5>
+       </div>
+       <div class="modal-body">
+<p>Desarrollamos aplicaciones móviles con enfoque en CRM para plataformas iOS, Android y Windows. </p>
+    <p>Soluciones dirigidas al cliente final, para que pueda consultar su información vía Apps y cuente con los beneficios que le brinda el programa en el que está inscrito.</p>
+    <p>Evaluación y seguimiento de planes de negocio, en conjunto con centros de consumo o puntos de venta.</p>
+    <p>Optimización de rutas y geolocalización de fuerza de ventas.</p>
+    <p>interaccion puntos de venta con programas de lealtad lms</p>
+
+       </div>
+       <a href="" class="ant btn-lms" data-toggle="modal" data-target="#soporte" data-dismiss="modal"><</a>
+          <a href="" class="sig btn-lms" data-toggle="modal" data-target="#promocion" data-dismiss="modal">></a>
+     </div>
+   </div>
+ </div>
+
+ <!-- Modal promocion-->
+ <div class="modal fade" id="promocion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+ aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered" role="document">
+   <div class="modal-content">
+     <button type="button" class="close-servicios close" data-dismiss="modal" aria-label="Close">
+       <span aria-hidden="true">&times;</span>
+     </button>
+     <img src="img/fondo-promocionOk.jpg" alt="" class="w-100">
+     <div class="modal-header pleca">
+       <h5 class="modal-title text-lms3" id="exampleModalLongTitle">
+        Promoción y evaluación<br>
+         <span>de punto de venta</span></h5>
+     </div>
+     <div class="modal-body">
+<p>Servicio de evaluación de mercadeo y colocación de material POP con registro de operación en handheld, aplicación móvil e impresora portátil.</p>
+  <ul>
+    <li><span>Agenda</span></li>
+    <li><span>Registro de campo</span></li>
+    <li><span>Toma de evidencia</span></li>
+    <li><span>Geolocaclización</span></li>
+    <li><span>Levantamiento de encuestas</span></li>
+    <li><span>Productividad po ruta</span></li>
+    <li><span>Seguimiento de evaluadores</span></li>
+    <li><span>Progreso de iniciativas</span></li>
+    <li><span>Score card</span></li>
+  </ul>
+
+     </div>
+     <a href="" class="ant btn-lms" data-toggle="modal" data-target="#aplicaciones" data-dismiss="modal"><</a>
+        <a href="" class="sig btn-lms" data-toggle="modal" data-target="#d-portales" data-dismiss="modal">></a>
+   </div>
+ </div>
+</div>
+
+ <!-- Modal d-portales-->
+ <div class="modal fade" id="d-portales" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+ aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered" role="document">
+   <div class="modal-content">
+     <button type="button" class="close-servicios close" data-dismiss="modal" aria-label="Close">
+       <span aria-hidden="true">&times;</span>
+     </button>
+     <img src="img/fondo-portalesOk.jpg" alt="" class="w-100">
+     <div class="modal-header pleca">
+       <h5 class="modal-title text-lms3" id="exampleModalLongTitle">
+        Desarrollo<br>
+         <span>de portales</span></h5>
+     </div>
+     <div class="modal-body">
+<p>Entre nuestros servicios, contamos con el desarrollo de aplicaciones en línea: brindamos servicios integrales de desarrollo web de portales, hosting, dominios y herramientas de marketing.</p>
+    <p>Combinamos las mejores prácticas y una extensa experiencia en el desarrollo web de portales. Nuestro equipo de profesionales puede implementar en Internet un Portal Empresarial o un Portal Corporativo, a la medida exacta de las especificaciones de los clientes, adoptanto siempre las últimas tecnologías.</p>
+    <p>Utilizamos Diseño Responsive de páginas web, que permite adaptar la apariencia de las páginas web al dispositivo que se esté utilizando para visualizarla, como tabletas, teléfonos, equipos portátiles y PCs.</p>
+    <p>Posicionamos los sitios web de forma orgánica en Google, con el fin de llevarlos a los primeros resultados de Google y los demás buscadores, lo cual garantiza que aumente su ranking en visibilidad.</p>
+    <p>Siempre sabremos cuántas visitas ha tenido la página web, de dónde son las visitas y muchos datos más.</p>
+
+     </div>
+     <a href="" class="ant btn-lms" data-toggle="modal" data-target="#promocion" data-dismiss="modal"><</a>
+        <a href="" class="sig btn-lms" data-toggle="modal" data-target="#comunicacion" data-dismiss="modal">></a>
+   </div>
+ </div>
+</div>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
