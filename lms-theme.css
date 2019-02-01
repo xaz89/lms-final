@@ -11327,10 +11327,22 @@ button.close-servicios {
   opacity: 1;
   margin: -1rem;
   background: #F58E00;
+  z-index: 11;
 }
 button.close:hover {
   color: #fff !important;
   opacity: 0.9 !important;
+}
+
+.modal-imagen {
+  height: 10rem;
+  position: relative;
+  z-index: 1;
+}
+.modal-imagen img {
+  position: absolute;
+  height: auto;
+  z-index: -1;
 }
 
 .close-servicios2 {
@@ -11368,6 +11380,8 @@ button.close:hover {
   text-underline-position: inherit;
   -webkit-box-shadow: 0.1rem 0.1rem 1rem grey;
   box-shadow: 0.1rem 0.1rem 1rem grey;
+  z-index: 11;
+  top: 3rem;
 }
 .modal-header.pleca h5 {
   line-height: 1.7rem;
@@ -11389,6 +11403,8 @@ button.close:hover {
 .modal-body {
   padding: 2rem;
   font-size: 0.85rem;
+  z-index: 2;
+  background: white;
 }
 
 .sig {
@@ -11475,12 +11491,6 @@ button.close:hover {
     margin-left: 0;
     top: 31%;
     padding: 1rem 0.5rem;
-  }
-
-  .modal-dialog-centered {
-    display: flex;
-    align-items: center;
-    min-height: auto;
   }
 }
 

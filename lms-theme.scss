@@ -1301,12 +1301,26 @@ button {
         margin: -1rem;
         background: $lms3;
 
+        z-index: 11;
+
     
     }
     &.close:hover {
         color: $white !important;
         opacity: 0.9 !important;
     }
+}
+
+.modal-imagen {
+    height: 10rem;
+        position: relative;
+        z-index: 1;
+
+        img {
+            position: absolute;
+        height: auto;
+        z-index: -1;
+        }
 }
 
 .close-servicios2 {
@@ -1345,6 +1359,9 @@ button {
         text-underline-position: inherit;
         -webkit-box-shadow: 0.1rem 0.1rem 1rem grey;
                 box-shadow: 0.1rem 0.1rem 1rem grey;
+
+                z-index: 11;
+    top: 3rem;
         h5 {
             line-height: 1.7rem;
             font-size: 2rem;
@@ -1367,8 +1384,13 @@ button {
 }
 
 .modal-body {
+    // padding: 2rem;
+    // font-size: 0.85rem;
+
     padding: 2rem;
-    font-size: 0.85rem;
+    font-size: .85rem;
+    z-index: 2;
+    background: white;
 }
 
 .sig {
@@ -1464,11 +1486,6 @@ button {
         padding: 1rem 0.5rem;
     }
 
-    .modal-dialog-centered {
-        display: flex;
-    align-items: center;
-    min-height: auto;
-    }
 
 
 }
