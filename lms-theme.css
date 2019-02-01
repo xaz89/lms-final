@@ -11461,12 +11461,6 @@ button.close:hover {
     font-size: 0.95rem;
   }
 
-  .modal-dialog-centered {
-    display: -webkit-box;
-    align-items: center;
-    min-height: 100vh;
-  }
-
   button.close-servicios {
     margin: 0;
   }
