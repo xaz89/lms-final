@@ -11476,6 +11476,12 @@ button.close:hover {
     top: 31%;
     padding: 1rem 0.5rem;
   }
+
+  .modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: auto;
+  }
 }
 
 /*# sourceMappingURL=lms-theme.css.map */
