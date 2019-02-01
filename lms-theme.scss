@@ -1443,9 +1443,8 @@ button {
 
     .modal-dialog-centered {
         display: -webkit-box;
-    align-items: end;
-    min-height: 100%;
-        
+    align-items: center;
+    min-height: 100vh;
     }
 
     button {
