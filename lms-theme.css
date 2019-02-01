@@ -11457,6 +11457,10 @@ button.close:hover {
     top: 6rem;
   }
 
+  .modal-body {
+    font-size: 1.85rem;
+  }
+
   button.close-servicios {
     margin: 0;
   }
