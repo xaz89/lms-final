@@ -11461,6 +11461,10 @@ button.close:hover {
     font-size: 0.95rem;
   }
 
+  .modal-dialog-centered {
+    min-height: 100%;
+  }
+
   button.close-servicios {
     margin: 0;
   }

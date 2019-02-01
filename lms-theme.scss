@@ -1441,6 +1441,10 @@ button {
         font-size: 0.95rem;
     }
 
+    .modal-dialog-centered {
+        min-height: 100%;
+    }
+
     button {
         &.close-servicios {
 
@@ -1461,4 +1465,6 @@ button {
         top: 31%;
         padding: 1rem 0.5rem;
     }
+
+
 }
