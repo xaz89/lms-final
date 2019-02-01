@@ -11462,9 +11462,9 @@ button.close:hover {
   }
 
   .modal-dialog-centered {
+    display: -webkit-box;
+    align-items: end;
     min-height: 100%;
-    display: block !important;
-    align-items: end !important;
   }
 
   button.close-servicios {
