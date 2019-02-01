@@ -791,6 +791,12 @@ path {
     }
 }
 
+.contacto {
+    * {
+        color: $lms4;
+    }
+}
+
 .modal {
     ul {
         li {
@@ -860,6 +866,18 @@ path {
     }
     .lineas-amarillo {
         background-image: url(img/lineas-amarillo.svg);
+        background-repeat: no-repeat;
+        padding: 5rem;
+        display: block;
+    }
+    .lineas-cyan {
+        background-image: url(img/lineas-cyan.svg);
+        background-repeat: no-repeat;
+        padding: 5rem;
+        display: block;
+    }
+    .lineas-verde {
+        background-image: url(img/lineas-verde.svg);
         background-repeat: no-repeat;
         padding: 5rem;
         display: block;
@@ -1430,13 +1448,16 @@ button {
     }
     .somos,
     .mision,
-    .servicios {
+    .servicios,
+    .contacto,
+    .vacante {
         * {
             text-align: center !important;
             line-height: 1.5rem !important;
         }
         h1 {
             margin-bottom: 3rem;
+            line-height: 2.5rem !important;
         }
         .lema {
             line-height: 1rem !important;
@@ -1446,7 +1467,9 @@ button {
     }
     .lineas-rosa,
     .lineas-azul,
-    .lineas-amarillo {
+    .lineas-amarillo,
+    .lineas-cyan,
+    .lineas-verde {
         background-image: none !important;
         padding: 1rem !important;
     }

@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>LMS-Misión</title>
+    <title>LMS-Servicios</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="back-internas mision animated fadeIn text-lms2">
+    <div class="back-internas servicios animated fadeIn text-lms2">
         <div class="frame-internas">
             <div class="redes">
                 <a href="#" target="_blank"><i class="fab fa-facebook" alt="facebook" title="facebook"></i></a>
@@ -24,7 +24,7 @@
             </div>
             <div class="nada"></div>
             <div class="menu d-flex">
-                    <a href="index.html"><i class="fas fa-home pr-3"></i></a>
+                <a href="index.html"><i class="fas fa-home pr-3"></i></a>
                 <div class="pos-f-t">
                     <div class="collapse" id="navbarToggleExternalContent">
                         <div class="p-4">
@@ -32,9 +32,6 @@
                                 <!-- <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                           </li> -->
-                          <li class="nav-item col">
-                                <a class="nav-link" href="index.html">Home</a>
-                              </li>
                                 <li class="nav-item col">
                                     <a class="nav-link " href="somos.html">Somos</a>
                                 </li>
@@ -70,29 +67,33 @@
             <img src="img/somos.jpg" class="img-fluid img-2 d-none d-md-block" style="transform: translateZ(20px)">
           
           </div> -->
-
                     <div class="col-md-4 d-none d-md-block fondo" data-tilt data-tilt-max="5">
-                        <img src="img/azul.jpg" alt="" class="img-fluid mx-auto">
+                        <img src="img/amarillo.jpg" alt="" class="img-fluid mx-auto">
                         <div class="imagen">
-                            <img src="img/mision.jpg" class="img-fluid ">
+                            <img src="img/servicios.jpg" class="img-fluid ">
                         </div>
-
-
-
-
                     </div>
-                    <div class="col-md-6 lineas-azul animated fadeInRight faster">
-                        <h1>Misión <span>LMS</span></h1>
-                        <p>Crear y administrar programas de lealtad para nuestros clientes con la finalidad de que
-                            establezcan un vínculo de lealtad con sus consumidores, empleados y canales de
-                            distribución, dándole mayor valor a su marca, en una relación «ganar-ganar».</p>
+                    <div class="col-md-6 lineas-amarillo animated fadeInRight faster">
+                        <h1>Servicios <span>LMS</span></h1>
 
+                        <p>
+                            - Planeación estratégica<br />
+                            - Desarrollo de sistemas<br />
+                            - Soporte técnico<br />
+                            - Aplicaciones móviles<br />
+                            - Promoción y evaluación de punto de venta<br />
+                            - Desarrollo de portales<br />
+                            - Comunicación y diseño<br />
+                            - Redes Sociales<br />
+                            - Alianzas estratégicas<br />
+                            - Call center<br />
+                            - Fulfillment<br />
+                            - Suministro de premios<br />
+                            - Gasificación</p>
                         <div class="controles">
-
-                            <p><a href="somos.html"><i class="fas fa-chevron-left pr-2"></i><b>Somos</b></a></p>
-                            <p><a href="servicios.html"><b>Servicios</b><i class="fas fa-chevron-right pl-2"></i></a></p>
+                            <p><a href="mision.html"><i class="fas fa-chevron-left pr-2"></i><b>Misión</b></a></p>
+                            <p><a href="contacto.html"><b>Contacto</b><i class="fas fa-chevron-right pl-2"></i></a></p>
                             <!-- <div class="col-auto">
-                  
                   <p><b>Index</b></p>
                   
                 </div>
@@ -109,15 +110,23 @@
             </div>
         </div>
     </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
     <script type="text/javascript" src="vanilla-tilt.js"></script>
-
+    <script>
+        $(document).ready(function () {
+            // set up hover panels
+            // although this can be done without JavaScript, we've attached these events
+            // because it causes the hover to be triggered when the element is tapped on a touch device
+            $('.hover').hover(function () {
+                $(this).addClass('flip');
+            }, function () {
+                $(this).removeClass('flip');
+            });
+        });</script>
 </body>
 
 </html>

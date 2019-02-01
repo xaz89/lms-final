@@ -10846,6 +10846,10 @@ path {
   color: #F58E00;
 }
 
+.contacto * {
+  color: #00B5D4;
+}
+
 .modal ul li {
   color: #F58E00;
   display: list-item;
@@ -10912,6 +10916,18 @@ path {
 }
 .internas .lineas-amarillo {
   background-image: url(img/lineas-amarillo.svg);
+  background-repeat: no-repeat;
+  padding: 5rem;
+  display: block;
+}
+.internas .lineas-cyan {
+  background-image: url(img/lineas-cyan.svg);
+  background-repeat: no-repeat;
+  padding: 5rem;
+  display: block;
+}
+.internas .lineas-verde {
+  background-image: url(img/lineas-verde.svg);
   background-repeat: no-repeat;
   padding: 5rem;
   display: block;
@@ -11444,18 +11460,25 @@ button.close:hover {
 
   .somos *,
 .mision *,
-.servicios * {
+.servicios *,
+.contacto *,
+.vacante * {
     text-align: center !important;
     line-height: 1.5rem !important;
   }
   .somos h1,
 .mision h1,
-.servicios h1 {
+.servicios h1,
+.contacto h1,
+.vacante h1 {
     margin-bottom: 3rem;
+    line-height: 2.5rem !important;
   }
   .somos .lema,
 .mision .lema,
-.servicios .lema {
+.servicios .lema,
+.contacto .lema,
+.vacante .lema {
     line-height: 1rem !important;
     font-size: 0.8rem;
     width: 100%;
@@ -11463,7 +11486,9 @@ button.close:hover {
 
   .lineas-rosa,
 .lineas-azul,
-.lineas-amarillo {
+.lineas-amarillo,
+.lineas-cyan,
+.lineas-verde {
     background-image: none !important;
     padding: 1rem !important;
   }
