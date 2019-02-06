@@ -224,32 +224,64 @@ body {
             animation-delay: 0.35s;
         }
         :nth-child(1) :hover {
+            &:before {
+                content: '- ';
+                font-size: 0.9rem;
+            }
             &:after {
-                content: ' -1';
+                content: ' -';
                 font-size: 0.9rem;
             }
         }
         :nth-child(2) :hover {
+            &:before {
+                content: '- ';
+                font-size: 0.9rem;
+            }
             &:after {
-                content: ' -2';
+                content: ' -';
                 font-size: 0.9rem;
             }
         }
         :nth-child(3) :hover {
-            &:after {
-                content: ' -3';
+            &:before {
+                content: '- ';
                 font-size: 0.9rem;
             }
+            &:after {
+                content: ' -';
+                font-size: 0.9rem;
+            }
+            
         }
         :nth-child(4) :hover {
+            &:before {
+                content: '- ';
+                font-size: 0.9rem;
+            }
             &:after {
-                content: ' -4';
+                content: ' -';
                 font-size: 0.9rem;
             }
         }
         :nth-child(5) :hover {
+            &:before {
+                content: '- ';
+                font-size: 0.9rem;
+            }
             &:after {
-                content: ' -Trabaja con nosotros';
+                content: ' -';
+                font-size: 0.9rem;
+            }
+        }
+
+        :nth-child(6) :hover {
+            &:before {
+                content: '- ';
+                font-size: 0.9rem;
+            }
+            &:after {
+                content: ' -';
                 font-size: 0.9rem;
             }
         }
@@ -506,12 +538,36 @@ body {
             padding: 1rem;
         }
     }
+    h1 {
+
+        span:nth-child(1) {
+            // Quitar o poner :hover para que se coloreen en un solo hover
+            -webkit-transition: all 0.2s;
+            /* Safari */
+            transition: all 0.2s;
+            color: $lms1;
+        }
+        span:nth-child(2) {
+            // Quitar o poner :hover para que se coloreen en un solo hover
+            -webkit-transition: all 0.2s;
+            /* Safari */
+            transition: all 0.2s;
+            color: $lms4;
+        }
+        span:nth-child(3) {
+            // Quitar o poner :hover para que se coloreen en un solo hover
+            -webkit-transition: all 0.2s;
+            /* Safari */
+            transition: all 0.2s;
+            color: $lms3;
+        }
+    }
     h1:hover {
         // transform: rotateY(0deg) rotateX(-20deg) scale(1.1) translate(-1rem);
         /* IE 9 */
-        -webkit-transform: skewY(-5deg) translate(-5px, 1px);
+        -webkit-transform: skewY(-1deg) translate(-1px, 1px);
         /* Safari 3-8 */
-        transform: skewY(-5deg) translate(-5px, 1px);
+        transform: skewY(-1deg) translate(-1px, 1px);
         span:nth-child(1) {
             // Quitar o poner :hover para que se coloreen en un solo hover
             -webkit-transition: all 0.2s;
@@ -795,10 +851,46 @@ path {
     * {
         color: $lms4;
     }
+    button {
+        align-self: start;
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+.vacantes {
+    * {
+        color: $lms5;
+    }
+
+    p, h5, img{
+        text-align: left;
+    }
+    button {
+        align-self: start;
+        p {
+            font-size: 0.9rem;
+        }
+        img {
+            text-align: left;
+        }
+        a {
+            text-align: right;
+            // margin-left: auto!important;
+            // margin-right: 0!important;
+            // right: 0;
+            // left: auto;
+        }
+        
+    }
+    
+
 }
 
 .modal {
     ul {
+        padding-inline-start: 1.2rem;
         li {
             color: $lms3;
             display: list-item;
@@ -1327,6 +1419,10 @@ button {
         color: $white !important;
         opacity: 0.9 !important;
     }
+
+    img {
+        padding-bottom: 1rem;
+    }
 }
 
 .modal-imagen {
@@ -1450,7 +1546,7 @@ button {
     .mision,
     .servicios,
     .contacto,
-    .vacante {
+    .vacantes {
         * {
             text-align: center !important;
             line-height: 1.5rem !important;
@@ -1495,18 +1591,34 @@ button {
 
         }
         
+        
     }
 
     .sig {
         margin-right: 0;
         top: 31%;
         padding: 1rem 0.5rem;
+        display:none;
     }
 
     .ant {
         margin-left: 0;
         top: 31%;
         padding: 1rem 0.5rem;
+        display:none;
+    }
+
+    .box1 {
+        h3 {
+            font-size: 1.6rem;
+        }
+         
+    }
+
+    .box2 {
+        p {
+            line-height: 1.2rem !important;
+         }
     }
 
 
