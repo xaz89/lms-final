@@ -13,8 +13,27 @@
 
     <script>
         $(document).ready(function(){
-            $("#button").click(function(event){
+            $("#button1").click(function(event){
+              $(".modal-header").removeClass("bg-info");
+              $(".modal-header").addClass("bg-primary");
                 $("#cambiar-titulo").load("archivo.php #titulo1");
+                $(".modal-body").load("archivo.php .modal-body1")
+            });
+        });
+
+        $(document).ready(function(){
+            $("#button2").click(function(event){
+              $(".modal-header").addClass("bg-info");
+                $("#cambiar-titulo").load("archivo.php #titulo2");
+                $(".modal-body").load("archivo.php .modal-body2")
+            });
+        });
+
+        $(document).ready(function(){
+            $("#button3").click(function(event){
+              $(".modal-header").addClass("bg-primary");
+                $("#cambiar-titulo").load("archivo.php #titulo3");
+                $(".modal-body").load("archivo.php .modal-body3")
             });
         });
     </script>
@@ -24,19 +43,29 @@
     <button id="button">Actualizar</button> -->
 
     <!-- Button trigger modal -->
-<button id="button" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
+<button id="button1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Cambiar
   </button>
+
+  <button id="button2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Cambiar2
+    </button>
+
+    <button id="button3" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Cambiar3
+      </button>
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style="color: white;">&times;</span>
+          </button>
       <div class="modal-content">
+          
         <div class="modal-header">
           <h5 class="modal-title" id="cambiar-titulo"></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+          
         </div>
         <div class="modal-body">
           ...
