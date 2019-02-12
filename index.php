@@ -38,7 +38,7 @@
                       <a class="nav-link" href="mision.html">Misión</a>
                     </li>
                     <li class="nav-item col">
-                      <a class="nav-link" href="servicios.html">Servicios</a>
+                      <a class="nav-link" href="servicios-ya.html">Servicios</a>
                     </li>
                     <li class="nav-item col">
                       <a class="nav-link" href="contacto.html">Contacto</a>
@@ -145,7 +145,7 @@
                 <a class="nav-link" href="mision.html">Misión</a>
               </li>
               <li class="nav-item col">
-                <a class="nav-link" href="servicios.html">Servicios</a>
+                <a class="nav-link" href="servicios-ya.html">Servicios</a>
               </li>
               <li class="nav-item col">
                 <a class="nav-link" href="contacto.html">Contacto</a>
