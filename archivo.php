@@ -213,7 +213,7 @@
         <h5 class="modal-title text-lms3 animated fadeInRight faster">Call<br><span>center</span></h5>
     </div>
     <div class="modal-imagen10">
-       <img src="img/fondo-callCenterOk.jpg" alt="" class="w-100">
+       <img src="img/fondo-callCenterOK.jpg" alt="" class="w-100">
     </div>
     <div class="modal-body10">
         <p>En LMS ofrecemos soluciones completas para clientes con diversos giros y segmentos, a través de nuestros contact centers.</p>

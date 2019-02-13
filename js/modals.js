@@ -46,3 +46,10 @@ function cambiarModal(opcion) {
     document.getElementById("boton-sig").value = opcion;
 
 }
+
+
+$(document).ready(function(){
+	$('#nav-icon2').click(function(){
+		$(this).toggleClass('open');
+	});
+});
