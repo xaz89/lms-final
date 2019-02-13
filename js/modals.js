@@ -1,5 +1,5 @@
 function siguiente() {
-    var atributo = $("#boton").val();
+    var atributo = $("#boton-sig").val();
     var uno = 1;
     var aumento = Number(atributo) + Number(uno);
     // console.log(aumento);
@@ -19,7 +19,7 @@ function siguiente() {
 }
 
 function anterior() {
-    var atributo = $("#boton").val();
+    var atributo = $("#boton-ant").val();
     var uno = 1;
     var aumento = Number(atributo) - Number(uno);
     // console.log(aumento);
@@ -42,6 +42,7 @@ function cambiarModal(opcion) {
     $(".modal-imagen").load("archivo.php .modal-imagen" + opcion);
     $(".modal-body").load("archivo.php .modal-body" + opcion);
 
-    document.getElementById("boton").value = opcion;
+    document.getElementById("boton-ant").value = opcion;
+    document.getElementById("boton-sig").value = opcion;
 
 }
