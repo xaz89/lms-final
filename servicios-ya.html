@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="lms-theme.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    
 
     <script src="js/modals.js"></script>
 </head>
@@ -80,6 +81,8 @@
                         <div class="row align-items-center">
                             <div class="col lineas-amarillo animated fadeInRight faster">
                                 <h1>Servicios <span>LMS</span></h1>
+                                <!-- <p><input type="button" id="boton-no" value="1"></p> -->
+
                             </div>
                             <div class="col controles">
                                 <p><a href="mision.html"><i class="fas fa-chevron-left pr-2"></i><b>Misión</b></a></p>
@@ -185,7 +188,7 @@
                                                 registro de operación en
                                                 handheld, aplicación móvil e impresora portátil.</p>
                                             <button id="button5" type="button" class="btn btn-lms" data-toggle="modal"
-                                                data-target="#exampleModal"  value="5" onclick="cambiarModal(this.value)">
+                                                data-target="#exampleModal"  value="5" onclick="cambiarModal(this)">
                                                 Entrar
                                             </button>
                                         </div>
@@ -382,10 +385,10 @@
                 </div>
                 <div class="modal-body">
                 </div>
-                <a href="" class="ant btn-lms" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">
-                    <</a>
-
-                    <button class="sig btn-lms" onclick="siguiente(this.value)">></button>
+                <!-- <a href="" class="ant btn-lms" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">
+                    <</a> -->
+                    <button class="ant btn-lms" id="boton" value="" onclick="anterior()"><</button>
+                    <button class="sig btn-lms" id="boton" value="" onclick="siguiente()">></button>
                     
                     <!-- <a href="" class="sig btn-lms" data-toggle="modal" data-target="#exampleModal"
                         data-dismiss="modal">> -->
@@ -396,7 +399,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="js/jquery-3.3.1.slim.min.js"></script> -->
+<!-- <script src="js/jquery-3.3.1.slim.min.js"></script> -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
