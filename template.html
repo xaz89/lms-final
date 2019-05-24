@@ -21,21 +21,24 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="lms-theme.min.css">
   <link rel="stylesheet" href="css/animate.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+  <script src="js/custom.js"></script>
 </head>
 
 <body>
-  <div class="back-internas somos animated fadeIn">
+  <!-- <button onclick="contenido('somos')" class="position-absolute" style="z-index:999">Cambio</button> -->
+  <div class="back-internas animated fadeIn">
     <div class="frame-internas">
       <div class="redes">
         <a href="#" target="_blank"><i class="fab fa-facebook" alt="facebook" title="facebook"></i></a>
         <a href="#" target="_blank"><i class="fab fa-twitter" alt="twitter" title="twitter"></i></a>
         <a href="#" target="_blank"><i class="fab fa-whatsapp" alt="whatsapp" title="whatsapp"></i></a>
       </div>
-      <div class="nada">
-        <div class="text-center d-none d-md-block">
-        <img src="img/logo.png" alt="" class="w-50">
-    </div>
-  </div>
+      <div class="nada"><div class="text-center d-none d-md-block">
+          <img src="img/logo.png" alt="" class="w-50">
+      </div></div>
       <div class="menu d-flex">
         <a href="index.html"><i class="fas fa-home pr-3"></i></a>
         <div class="pos-f-t">
@@ -74,24 +77,14 @@
       </div>
       <div class="internas">
         <div class="row align-items-center justify-content-around">
-          <!-- <div class="col-md-4 mx-auto rosa animated fadeIn faster" alt="" data-tilt data-tilt-max="10" data-tilt-speed="200"
-            data-tilt-perspective="500" style="transform-style: preserve-3d;transform: perspective(1000px)">
-            
-            <img src="img/somos.jpg" class="img-fluid img-2 d-none d-md-block" style="transform: translateZ(20px)">
-          
-          </div> -->
-
-          <div class="col-md-4 d-none d-md-block fondo" data-tilt data-tilt-max="5">
-            <img src="img/rosa.jpg" alt="" class="img-fluid mx-auto">
-            <div class="imagen">
-              <img src="img/somos.jpg" class="img-fluid ">
-            </div>
-
-
-
-
+          <div id="fondo" class="col-md-4 d-none d-md-block fondo" data-tilt data-tilt-max="5">
+            <!-- <img src="img/rosa.jpg" alt="" class="img-fluid mx-auto"> -->
+            <!-- <div id="imagen" class="imagen">
+              <img src="img/somos.jpg" class="img-fluid imagen">
+            </div> -->
           </div>
-          <div class="col-md-6 lineas-rosa animated fadeInRight faster">
+          <div id="lineas" class="col-md-6 animated fadeInRight faster">
+            <!-- <div class="lineas-rosa">
             <h1>Somos <span>LMS</span></h1>
             <p>Loyalty Marketing Services (LMS) es la empresa líder, con más experiencia en el mercado del diseño,
               implementación y administración de Programas de Lealtad y Soluciones CRM en sus dos vertientes:
@@ -99,20 +92,11 @@
             <p>En LMS brindamos un servicio «llave en mano» único, que ofrece una solución total a las necesidades
               específicas de nuestros clientes, desde el desarrollo de las estrategias hasta la operación y el soporte.
               Para ello, contamos con un equipo que reúne a más de 250 profesionales calificados. </p>
-
             <div class="controles">
-
               <p><a href="index.html"><i class="fas fa-chevron-up pr-2"></i><b>Index</b></a></p>
               <p><a href="mision.html"><b>Misión</b><i class="fas fa-chevron-right pl-2"></i></a></p>
-              <!-- <div class="col-auto">
-                  
-                  <p><b>Index</b></p>
-                  
-                </div>
-                <div class="col-auto">
-                    sig
-                  </div> -->
             </div>
+          </div> -->
           </div>
         </div>
       </div>
@@ -125,7 +109,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <!-- <script src="js/jquery-3.3.1.slim.min.js"></script> -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 

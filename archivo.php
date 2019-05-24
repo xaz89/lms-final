@@ -1,11 +1,7 @@
 <!-- Modal planeacion-->
 <div class="modal1">
-    <div id="titulo1">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Planeación<br><span>estratégica</span></h5>
-    </div>
-    <div class="modal-imagen1">
-        <img src="img/fondo-planeacionOk.jpg" alt="" class="w-100">
-    </div>
+    <h5 id="titulo1" class="animated fadeInRight faster">Planeación<br><span>estratégica</span></h5>
+    <img src="img/fondo-planeacionOk.jpg" alt="" class="modal-imagen1 w-100">
     <div class="modal-body1">
         Definición de la estrategia del programa, así como los objetivos y metas a alcanzar en el corto, mediano y
           largo plazo. Se evalúan, a su vez, los segmentos del mercado que deberán atacarse y sus respectivas etapas.
@@ -24,11 +20,10 @@
           </ul>
     </div>
 </div>
-
   <!-- Modal d-sistemas-->
 <div class="modal2">
     <div id="titulo2">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Desarrollo<br><span>de sistemas</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Desarrollo<br><span>de sistemas</span></h5>
     </div>
     <div class="modal-imagen2">
         <img src="img/fondo-desarrolloOk.jpg" alt="" class="w-100">
@@ -55,12 +50,10 @@
           </ul>
     </div>
 </div>
-
-
   <!-- Modal soporte-->
 <div class="modal3">
     <div id="titulo3">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Soporte<br><span>técnico</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Soporte<br><span>técnico</span></h5>
     </div>
     <div class="modal-imagen3">
        <img src="img/fondo-soporteOk.jpg" alt="" class="w-100">
@@ -73,11 +66,10 @@
         <p>Contamos con una aplicación para el seguimiento, escala y monitoreo de órdenes de trabajo (solución de problemas, sugerencias, servicio y quejas), que les permite a los agentes de Help Desk tener un control total sobre su operación, así como contar con teléfono, correo electrónico y chat.</p>
     </div>
 </div>
-
 <!-- Modal aplicaciones-->
 <div class="modal4">
     <div id="titulo4">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Aplicaciones<br><span>móviles</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Aplicaciones<br><span>móviles</span></h5>
     </div>
     <div class="modal-imagen4">
        <img src="img/fondo-appMovilesOk.jpg" alt="" class="w-100">
@@ -90,11 +82,10 @@
         <p>interaccion puntos de venta con programas de lealtad lms</p>
     </div>
 </div>
-
 <!-- Modal promocion-->
 <div class="modal5">
     <div id="titulo5">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Promoción y evaluación<br><span>de punto de venta</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Promoción y evaluación<br><span>de punto de venta</span></h5>
     </div>
     <div class="modal-imagen5">
        <img src="img/fondo-promocionOk.jpg" alt="" class="w-100">
@@ -114,11 +105,10 @@
             </ul>
     </div>
 </div>
-
 <!-- Modal d-portales-->
 <div class="modal6">
     <div id="titulo6">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Desarrollo<br><span>de portales</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Desarrollo<br><span>de portales</span></h5>
     </div>
     <div class="modal-imagen6">
        <img src="img/fondo-portalesOk.jpg" alt="" class="w-100">
@@ -131,11 +121,10 @@
         <p>Siempre sabremos cuántas visitas ha tenido la página web, de dónde son las visitas y muchos datos más.</p>
     </div>
 </div>
-
 <!-- Modal comunicacion-->
 <div class="modal7">
     <div id="titulo7">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Comunicación<br><span>y diseño</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Comunicación<br><span>y diseño</span></h5>
     </div>
     <div class="modal-imagen7">
        <img src="img/fondo-disenoOk.jpg" alt="" class="w-100">
@@ -159,11 +148,10 @@
         </ul>
     </div>
 </div>
-
 <!-- Modal redes-->
 <div class="modal8">
     <div id="titulo8">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Redes<br><span>sociales</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Redes<br><span>sociales</span></h5>
     </div>
     <div class="modal-imagen8">
        <img src="img/fondo-redesOk.jpg" alt="" class="w-100">
@@ -171,25 +159,23 @@
     <div class="modal-body8">
         <p>En LMS planificamos, diseñamos e implementamos campañas exitosas en redes sociales con el objetivo de adquirir una visión clara sobre la relación entre las marcas y sus clientes, cumplir con estrategias de mercadotecnia y crear un acercamiento entre nuestros clientes y los usuarios del programa.</p>
         <ul>
-          <li><span>* Autentificación por medio de Facebook o Twitter.</span></li>
-          <li><span>* Campañas.</span></li>
-          <li><span>* Retos.</span></li>
-          <li><span>* Noticias.</span></li>
-          <li><span>* Trivias.</span></li>
-          <li><span>* Dashboard.</span></li>
-          <li><span>* Seguimiento de hashtags.</span></li>
-          <li><span>* Asignar puntos por participación e invitación.</span></li>
-          <li><span>* Ranking.</span></li>
-          <li><span>* Catálogo de recompensas.</span></li>
+          <li><span>Autentificación por medio de Facebook o Twitter.</span></li>
+          <li><span>Campañas.</span></li>
+          <li><span>Retos.</span></li>
+          <li><span>Noticias.</span></li>
+          <li><span>Trivias.</span></li>
+          <li><span>Dashboard.</span></li>
+          <li><span>Seguimiento de hashtags.</span></li>
+          <li><span>Asignar puntos por participación e invitación.</span></li>
+          <li><span>Ranking.</span></li>
+          <li><span>Catálogo de recompensas.</span></li>
         </ul>
     </div>
 </div>
-
-
 <!-- Modal alianzas-->
 <div class="modal9">
     <div id="titulo9">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Alianzas<br><span>estratégicas</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Alianzas<br><span>estratégicas</span></h5>
     </div>
     <div class="modal-imagen9">
        <img src="img/fondo-alianzasOk.jpg" alt="" class="w-100">
@@ -206,11 +192,10 @@
         </ul>
     </div>
 </div>
-
 <!-- Modal call-->
 <div class="modal10">
     <div id="titulo10">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Call<br><span>center</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Call<br><span>center</span></h5>
     </div>
     <div class="modal-imagen10">
        <img src="img/fondo-callCenterOK.jpg" alt="" class="w-100">
@@ -232,11 +217,10 @@
         </ul>
     </div>
 </div>
-
 <!-- Modal fulfillment-->
 <div class="modal11">
     <div id="titulo11">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Fulfillment<br><span></span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Fulfillment<br><span></span></h5>
     </div>
     <div class="modal-imagen11">
        <img src="img/fondo-fullfilmentOk.jpg" alt="" class="w-100">
@@ -255,11 +239,10 @@
         </ul>
     </div>
 </div>
-
 <!-- Modal suministro-->
 <div class="modal12">
     <div id="titulo12">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Suministro y<br><span>distribución<br>de premios</span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Suministro y<br><span>distribución<br>de premios</span></h5>
     </div>
     <div class="modal-imagen12">
        <img src="img/fondo-suministroOk.jpg" alt="" class="w-100">
@@ -295,11 +278,10 @@
         </ul> 
     </div>
 </div>
-
 <!-- Modal gamification-->
 <div class="modal13">
     <div id="titulo13">
-        <h5 class="modal-title text-lms3 animated fadeInRight faster">Gamification<br><span></span></h5>
+        <h5 class="modal-title text-lms6 animated fadeInRight faster">Gamification<br><span></span></h5>
     </div>
     <div class="modal-imagen13">
        <img src="img/fondo-gameOk.jpg" alt="" class="w-100">

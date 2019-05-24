@@ -4,10 +4,8 @@ function siguiente() {
     var aumento = Number(atributo) + Number(uno);
     // console.log(aumento);
     if (aumento <= 13) {
-     
         cambiarModal(aumento);
     }
-
     else {
         $(".modal").css("display", "none").attr("aria-hidden", "true").removeClass("show");
         // $(".modal").attr("aria-hidden", "true");
@@ -15,7 +13,6 @@ function siguiente() {
         $(".modal-backdrop").removeClass("modal-backdrop fade show");
         $("body").removeClass("modal-open");
     }
-
 }
 
 function anterior() {
@@ -26,11 +23,8 @@ function anterior() {
     if (aumento >= 1) {
         cambiarModal(aumento);
     }
-
     else {
         $(".modal").css("display", "none").attr("aria-hidden", "true").removeClass("show");
-        // $(".modal").attr("aria-hidden", "true");
-        // $(".modal").removeClass("show");
         $(".modal-backdrop").removeClass("modal-backdrop fade show");
         $("body").removeClass("modal-open");
     }
@@ -44,12 +38,9 @@ function cambiarModal(opcion) {
 
     document.getElementById("boton-ant").value = opcion;
     document.getElementById("boton-sig").value = opcion;
-
 }
-
-
-$(document).ready(function(){
-	$('#nav-icon2').click(function(){
-		$(this).toggleClass('open');
-	});
+$(document).ready(function () {
+    $('#nav-icon2').click(function () {
+        $(this).toggleClass('open');
+    });
 });
