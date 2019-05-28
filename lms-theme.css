@@ -10734,7 +10734,7 @@ body {
 
 .btn-lms {
   color: white;
-  font-family: "Roboto", helvetica;
+  font-family: "Roboto", sans-serif;
   background-color: rgba(245, 36, 36, 0.8);
   border: 0;
   border-radius: 0.3rem;
@@ -11142,17 +11142,23 @@ path {
   -webkit-transform: perspective(1000px);
   transform: perspective(1000px);
 }
+.fondo img {
+  height: 28rem;
+}
 
 .imagen {
   position: absolute;
   margin-top: 1rem;
-  margin-left: 2.5rem;
-  top: 5%;
-  left: 10%;
+  margin-left: 1.5rem;
+  top: 7%;
+  left: 20%;
   -webkit-transform: translateZ(50px) translateX(1%) translateY(1%);
   transform: translateZ(50px) translateX(1%) translateY(1%);
   -webkit-box-shadow: 0 0 50px 0 rgba(51, 51, 51, 0.3);
   box-shadow: 0 0 50px 0 rgba(51, 51, 51, 0.3);
+}
+.imagen img {
+  height: 25rem;
 }
 
 .owl-item.active > div:after {
