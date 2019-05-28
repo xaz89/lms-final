@@ -6,9 +6,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Sacramento&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="lms-theme.min.css">
     <!-- <link rel="stylesheet" href="css/animate.css"> -->
@@ -18,28 +18,28 @@
 
 
     <!-- Trigger the modal with a button -->
-<button type="button" class="btn btn-success openBtn">Open Modal</button>
+    <button type="button" class="btn btn-success openBtn">Open Modal</button>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">×</button>
-                <h4 class="modal-title">Modal with Dynamic Content</h4>
-            </div>
-            <div class="modal-body">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Modal with Dynamic Content</h4>
+                </div>
+                <div class="modal-body">
 
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
@@ -47,12 +47,12 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
 
-<!-- <script>
+    <!-- <script>
 function mostrar(){
 
 $("#mostrar").html('<div class="container"></div>');
@@ -68,7 +68,7 @@ $("#mostrar").html('<div class="container"></div>');
 </script> -->
 
 
-<!-- <script>
+    <!-- <script>
 $('.openBtn').on('click',function(){
     $('.modal-body').load('modals.html',function(){
         $('#myModal').modal({show:true});
@@ -76,15 +76,17 @@ $('.openBtn').on('click',function(){
 });
 </script> -->
 
-<script>
-        $('.openBtn').on('click',function(){
-            $('.modal-body').load('content.html',function(){
-                $('#myModal').modal({show:true});
+    <script>
+        $('.openBtn').on('click', function() {
+            $('.modal-body').load('content.html', function() {
+                $('#myModal').modal({
+                    show: true
+                });
             });
         });
-        </script> 
+    </script>
 
-    
+
 </body>
 
 </html>

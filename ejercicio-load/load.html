@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="es">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Sacramento&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -12,76 +14,78 @@
     <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
 
     <script>
-        $(document).ready(function(){
-            $("#button1").click(function(event){
-              $(".modal-header").removeClass("bg-info");
-              $(".modal-header").addClass("bg-primary");
+        $(document).ready(function() {
+            $("#button1").click(function(event) {
+                $(".modal-header").removeClass("bg-info");
+                $(".modal-header").addClass("bg-primary");
                 $("#cambiar-titulo").load("archivo.php #titulo1");
                 $(".modal-body").load("archivo.php .modal-body1")
             });
         });
 
-        $(document).ready(function(){
-            $("#button2").click(function(event){
-              $(".modal-header").addClass("bg-info");
+        $(document).ready(function() {
+            $("#button2").click(function(event) {
+                $(".modal-header").addClass("bg-info");
                 $("#cambiar-titulo").load("archivo.php #titulo2");
                 $(".modal-body").load("archivo.php .modal-body2")
             });
         });
 
-        $(document).ready(function(){
-            $("#button3").click(function(event){
-              $(".modal-header").addClass("bg-primary");
+        $(document).ready(function() {
+            $("#button3").click(function(event) {
+                $(".modal-header").addClass("bg-primary");
                 $("#cambiar-titulo").load("archivo.php #titulo3");
                 $(".modal-body").load("archivo.php .modal-body3")
             });
         });
     </script>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- <div id="capa">Pulsa el botón y se actualiza esta cosa</div>
     <button id="button">Actualizar</button> -->
 
     <!-- Button trigger modal -->
-<button id="button1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    <button id="button1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
     Cambiar
   </button>
 
-  <button id="button2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    <button id="button2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
       Cambiar2
     </button>
 
     <button id="button3" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
         Cambiar3
       </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true" style="color: white;">&times;</span>
           </button>
-      <div class="modal-content">
-          
-        <div class="modal-header">
-          <h5 class="modal-title" id="cambiar-titulo"></h5>
-          
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cambiar-titulo"></h5>
+
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
     </div>
-  </div>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
