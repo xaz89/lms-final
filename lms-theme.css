@@ -11679,7 +11679,7 @@ button img {
 .servicios h1,
 .contacto h1,
 .vacantes h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     line-height: 2.5rem !important;
   }
   .somos .lema,
@@ -11690,6 +11690,15 @@ button img {
     line-height: 1rem !important;
     font-size: 0.8rem;
     width: 100%;
+  }
+
+  .somos {
+    background: url("img/mob-somos-.jpg");
+    background-origin: border-box;
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
   }
 
   .lineas-rosa,
@@ -11730,7 +11739,7 @@ button img {
   }
 
   .box1 h3 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 
   .box2 p {
